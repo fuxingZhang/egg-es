@@ -17,7 +17,7 @@ describe('test/es.test.js', () => {
   it('should GET /', () => {
     return app.httpRequest()
       .get('/')
-      .expect('hi, @eggplugin/es')
+      .expect('hi, es')
       .expect(200);
   });
 });

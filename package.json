@@ -1,14 +1,18 @@
 {
-  "name": "egg-es",
+  "name": "@eggplugin/es",
   "version": "0.1.0",
   "description": "Elasticsearch plugin for Egg.js",
   "eggPlugin": {
-    "name": "@eggplugin/es"
+    "name": "es"
   },
   "keywords": [
     "egg",
     "eggPlugin",
-    "egg-plugin"
+    "egg-plugin",
+    "Elasticsearch",
+    "elasticsearch",
+    "elasticsearch-js",
+    "@elastic/elasticsearch"
   ],
   "dependencies": {
     "@elastic/elasticsearch": "^7.6.0"
@@ -46,12 +50,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-es.git"
+    "url": "git+https://github.com/fuxingZhang/egg-es.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/fuxingZhang/egg-es/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-es#readme",
-  "author": "fuxingZhang",
+  "homepage": "https://github.com/fuxingZhang/egg-es#readme",
+  "author": "Zhang Fu Xing <502545703@qq.com>",
   "license": "MIT"
 }
