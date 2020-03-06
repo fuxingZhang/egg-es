@@ -1,6 +1,6 @@
 {
   "name": "@eggplugin/es",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Elasticsearch plugin for Egg.js",
   "eggPlugin": {
     "name": "es"

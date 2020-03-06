@@ -9,6 +9,7 @@ exports.es = {
   // default configuration for all clients
   default: {
     node: 'http://localhost:9200',
+    checkConnection: true
   },
   app: true,
   agent: false,

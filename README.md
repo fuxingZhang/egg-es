@@ -32,22 +32,13 @@ Elasticsearch plugin for Egg.js
 $ npm i @eggplugin/es --save
 ```
 
-## Usage
+## Configuration
 
 ```js
 // {app_root}/config/plugin.js
 exports.es = {
   enable: true,
   package: '@eggplugin/es',
-};
-```
-see [config/config.default.js](config/config.default.js) for more detail.
-
-## Configuration
-
-```js
-// {app_root}/config/config.default.js
-exports.@eggplugin/es = {
 };
 ```
 see [config/config.default.js](config/config.default.js) for more detail.
@@ -59,6 +50,7 @@ see [config/config.default.js](config/config.default.js) for more detail.
 exports.es = {
   client: {
     node: 'http://localhost:9200',
+    checkConnection: true, // default: true, in app.beforeStart check connection
     // ...
   },
   // load into app, default is open
